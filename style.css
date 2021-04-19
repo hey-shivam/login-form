@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cormorant Unicase', serif;
+    margin: 0;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: steelblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+.container-fluid{
+    background-color: #2a4e6c;
+    height: 52%;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.container h1{
+    font-size: 34px;
+    padding: 15px 25px;
+    margin: 10px 30px 15px;
+    text-align: center;
+}
+
+.form-control{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px ;
+}
+
+.form-control label{
+    display: block;
+    text-align: left;
+    margin: 0px 15px 0px;
+    font-size: 20px;
+}
+
+.form-control input{
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    font-size: 18px;
+    padding: 8px 0px;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid white;
+}
+
+
+p{
+    text-align: left;
+    font-size: 18px;
+}
+
+button{
+    background-color: #add8e6;
+    width: 90%;
+    margin: 25px 0px;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #add8e6;
+}
+
+.form-control input:focus,.form-control input:invalid button:focus{
+    outline: none;
+}
+
+
